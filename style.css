@@ -1,0 +1,166 @@
+body{
+    background: black;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+
+}
+
+body h2{
+    margin-top: 5px;
+    font-size: 40px;
+    text-shadow: 0px 0px 2px black;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    transform: scaleY(1.2);
+    line-height: 1;
+}
+
+
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header nav{
+    margin-top: 8px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+
+#header img
+{   
+    cursor: pointer;
+    margin-left: 50px;
+    height: 26.25px;
+    width: 190px;;
+}
+
+#header a{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#header p{
+    margin-top: 17px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+#menu-btn{
+    cursor: pointer;
+    margin-right: 55px;
+    margin-top: 25px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-shadow: 0px 0px 3px black;
+}
+
+#bar-1{
+    background: white;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+#bar-2{
+    background: white;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+#bar-3{
+    background: white;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+#hero-section{
+    /* margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 730px; */
+    background-image: url("images/flight.webp");
+    background-size: cover;
+}
+
+.page-section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 720px;
+    background-size: cover;
+}
+
+.page-content{
+    padding-top: 320px;
+    padding-left: 130px;
+    
+}
+
+.secondary-text{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-shadow: 3px;
+    font-weight: normal;
+}
+
+.watch-btn{
+    width: 164px;
+    height: 53px;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    text-shadow: 0px 0px 1px black;
+    font-weight: bolder;
+}
+
+#page-2{
+    background-image: url("images/firefly.jpg");
+}
+
+#page-3{
+    background-image: url("images/transporter12.webp") ;
+}
+
+#page-4{
+    background-image: url("images/starlink.webp");
+}
+
+#page-5{
+    background-image: url("images/astronaut.jpg");
+    
+}
+
+#page-6{
+    background-image: url("images/planetary.jpg");
+}
+
+#footer{
+    background: black;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+#footer a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 5px;
+}
