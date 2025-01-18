@@ -162,5 +162,9 @@ body h2{
     color: white;
     font-size: 10px;
     text-decoration: none;
-    margin: 30px 5px;
+    margin: 40px; 5px;
+}
+
+.bold{
+    font-weight: bold;
 }
